@@ -1,18 +1,18 @@
 {
-  "name": "@astrojs/cloudflare",
-  "description": "Deploy your site to Cloudflare Workers/Pages",
-  "version": "10.2.4",
+  "name": "@chatmeter/astro-cloudflare",
+  "description": "temporary fork of @astrojs/cloudflare",
+  "version": "10.3.0",
   "type": "module",
   "types": "./dist/index.d.ts",
   "author": "withastro",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/withastro/adapters.git",
+    "url": "https://github.com/adrianlyjak/withastro-adapters.git",
     "directory": "packages/cloudflare"
   },
   "keywords": ["withastro", "astro-adapter"],
-  "bugs": "https://github.com/withastro/adapters/issues",
+  "bugs": "https://github.com/adrianlyjak/withastro-adapters/issues",
   "homepage": "https://docs.astro.build/en/guides/integrations-guide/cloudflare/",
   "exports": {
     ".": "./dist/index.js",
@@ -50,8 +50,5 @@
     "rollup": "^4.14.0",
     "strip-ansi": "^7.1.0",
     "vite": "^5.2.6"
-  },
-  "publishConfig": {
-    "provenance": true
   }
 }
