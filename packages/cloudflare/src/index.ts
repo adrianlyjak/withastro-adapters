@@ -175,7 +175,7 @@ export default function createIntegration(args?: Options): AstroIntegration {
 
 				setAdapter({
 					name: '@astrojs/cloudflare',
-					serverEntrypoint: '@astrojs/cloudflare/entrypoints/server.js',
+					serverEntrypoint: '@chatmeter/astro-cloudflare/entrypoints/server.js',
 					exports: ['default'],
 					adapterFeatures: {
 						functionPerRoute: false,
