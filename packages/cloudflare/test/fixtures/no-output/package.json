@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@astrojs/cloudflare": "workspace:*",
+    "@chatmeter/astro-cloudflare": "workspace:*",
     "astro": "^4.3.5"
   }
 }

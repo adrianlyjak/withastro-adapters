@@ -1,4 +1,4 @@
-import cloudflare from '@astrojs/cloudflare';
+import cloudflare from '@chatmeter/astro-cloudflare';
 import solidJs from "@astrojs/solid-js";
 import { defineConfig } from 'astro/config';
 

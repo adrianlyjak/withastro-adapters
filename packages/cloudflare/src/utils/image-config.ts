@@ -17,14 +17,14 @@ export function setImageConfig(
 				service:
 					command === 'dev'
 						? sharpImageService()
-						: { entrypoint: '@astrojs/cloudflare/image-service' },
+						: { entrypoint: '@chatmeter/astro-cloudflare/image-service' },
 			};
 
 		case 'compile':
 			return {
 				...config,
 				service: sharpImageService(),
-				endpoint: command === 'dev' ? undefined : '@astrojs/cloudflare/image-endpoint',
+				endpoint: command === 'dev' ? undefined : '@chatmeter/astro-cloudflare/image-endpoint',
 			};
 
 		case 'custom':

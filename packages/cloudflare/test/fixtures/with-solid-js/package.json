@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@astrojs/cloudflare": "workspace:*",
+    "@chatmeter/astro-cloudflare": "workspace:*",
     "@astrojs/solid-js": "^3.0.2",
     "astro": "^4.3.5",
     "solid-js": "^1.7.11"

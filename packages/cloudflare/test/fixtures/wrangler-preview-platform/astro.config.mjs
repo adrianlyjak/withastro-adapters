@@ -1,4 +1,4 @@
-import cloudflare from '@astrojs/cloudflare';
+import cloudflare from '@chatmeter/astro-cloudflare';
 import { defineConfig } from 'astro/config';
 
 
