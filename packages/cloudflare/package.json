@@ -1,7 +1,7 @@
 {
   "name": "@chatmeter/astro-cloudflare",
   "description": "temporary fork of @astrojs/cloudflare",
-  "version": "10.3.3-rc1",
+  "version": "10.3.3",
   "type": "module",
   "types": "./dist/index.d.ts",
   "author": "withastro",
